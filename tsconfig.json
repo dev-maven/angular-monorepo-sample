@@ -5,10 +5,24 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "lib-beehive-rg-shared": [
+        "dist/lib-beehive-rg-shared/lib-beehive-rg-shared",
+        "dist/lib-beehive-rg-shared"
+      ],
+      "lib-beehive-rgb": [
+        "dist/lib-beehive-rgb/lib-beehive-rgb",
+        "dist/lib-beehive-rgb"
+      ],
+      "lib-beehive-ui-shared": [
+        "dist/lib-beehive-ui-shared/lib-beehive-ui-shared",
+        "dist/lib-beehive-ui-shared"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
